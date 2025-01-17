@@ -35,9 +35,3 @@ def data_extraction():
         writer = csv.writer(file, delimiter=';')
         for page_addresses in addresses:
             writer.writerow([page_addresses])
-
-def main():
-    data_extraction()
-
-if __name__ == "__main__":
-    main()
