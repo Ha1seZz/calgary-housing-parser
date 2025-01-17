@@ -17,8 +17,12 @@ Libraries used: beautifulsoup4, requests
     ```sh
     git clone https://github.com/Ha1seZz/calgary-housing-parser
     ```
+2. Go to the project folder:
+    ```sh
+    cd calgary-housing-parser
+    ```
 
-2. Install required dependencies:
+3. Install required dependencies:
 
     ```sh
     python -m pip install -U -r requirements.txt
