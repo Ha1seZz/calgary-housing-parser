@@ -4,7 +4,7 @@ The code was written for educational purposes
 # Alberta Seniors Housing Directory Parser
 A small parser of the housing directory of housing [ASCHA Housing Directory](https://housingdirectory.ascha.com/). It goes through the pages saving the addresses.
 
-Libraries used: beautifulsoup4, requests
+Libraries used: beautifulsoup4, requests, typing
 
 ## Functions
 - Automatically determines the number of pages to parse.
@@ -15,11 +15,11 @@ Libraries used: beautifulsoup4, requests
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/Ha1seZz/calgary-housing-parser
+    git clone https://github.com/Ha1seZz/Alberta-Seniors-Housing-Directory-Parser
     ```
 2. Go to the project folder:
     ```sh
-    cd calgary-housing-parser
+    cd Alberta-Seniors-Housing-Directory-Parser
     ```
 
 3. Install required dependencies:
