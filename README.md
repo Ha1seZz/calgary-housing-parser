@@ -3,12 +3,15 @@ A small parser of the housing directory of housing https://housingdirectory.asch
 
 Libraries used: beautifulsoup4, requests
 
-📝 Usage
+## 📝 Usage
+1. Clone the repository:
 
-Clone the repository:
+    ```sh
+    git clone https://github.com/Ha1seZz/calgary-housing-parser
+    ```
 
-git clone https://github.com/Ha1seZz/calgary-housing-parser
+2. Install required dependencies:
 
-Install required dependencies:
-
-python -m pip install -U -r requirements.txt
+    ```sh
+    python -m pip install -U -r requirements.txt
+    ```
