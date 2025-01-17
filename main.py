@@ -1,4 +1,7 @@
-from parser import data_extraction
+"""The main script that runs the entire project."""
+
+from parser.scraper import data_extraction
+
 
 def main():
     print("Starting Calgary Housing Parser...")
