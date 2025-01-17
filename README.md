@@ -1,7 +1,7 @@
 ## The purpose of the project:
 The code was written for educational purposes
 
-# Calgary Housing Parser
+# Alberta Seniors Housing Directory Parser
 A small parser of the housing directory of housing [ASCHA Housing Directory](https://housingdirectory.ascha.com/). It goes through the pages saving the addresses.
 
 Libraries used: beautifulsoup4, requests
