@@ -31,7 +31,7 @@ def data_extraction():
         page_addresses = [address.get_text().strip() for address in soup.find_all("div", class_="directorist-listing-card-address")]
         addresses.extend(page_addresses)
 
-    with open("addresses.csv", "w", newline='') as file:
+    with open("data/processed/addresses.csv", "w", newline='') as file:
         writer = csv.writer(file, delimiter=';')
         for page_addresses in addresses:
             writer.writerow([page_addresses])
