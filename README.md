@@ -17,20 +17,24 @@ Libraries used: beautifulsoup4, requests, typing
 ```sh
 project/
 ├── src/
-│   ├── HttpClient.py       # Handles HTTP requests with a session.
-│   ├── DataParser.py       # Extracts data (city options, addresses, page count) from HTML.
-│   ├── CsvWriter.py        # Handles CSV file creation and data writing.
-│   ├── Scraper.py          # Orchestrates the scraping process.
-│   ├── input_handler.py    # Validates and handles user input.
-│   └── main.py             # Entry point of the application.
-├── tests/                  # Unit tests for each module.
-│   ├── Soon...
-├── data/                   # Directory for processed output.
-│   └── processed/          # Contains generated CSV files.
-├── requirements.txt        # Python dependencies.
-├── .gitignore              # Files and folders to ignore in Git.
-├── README.md               # Project documentation.
-└── LICENSE                 # License for the project.
+│   ├── HttpClient.py         # Handles HTTP requests with a session.
+│   ├── DataParser.py         # Extracts data (city options, addresses, page count) from HTML.
+│   ├── CsvWriter.py          # Handles CSV file creation and data writing.
+│   ├── Scraper.py            # Orchestrates the scraping process.
+│   ├── input_handler.py      # Validates and handles user input.
+│   └── main.py               # Entry point of the application.
+├── tests/
+│   ├── test_HttpClient.py    # Tests for HttpClient class
+│   ├── test_DataParser.py    # Tests for DataParser class
+│   ├── test_CsvWriter.py     # Tests for CsvWriter class
+│   ├── test_Scraper.py       # Tests for Scraper class
+│   └── test_input_handler.py # Tests for input handler
+├── data/
+│   └── processed/            # Contains generated CSV files.
+├── requirements.txt          # Python dependencies.
+├── .gitignore                # Files and folders to ignore in Git.
+├── README.md                 # Project documentation.
+└── LICENSE                   # License for the project.
 ```
 
 ## Requirements
