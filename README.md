@@ -34,20 +34,23 @@ project/
 ```
 
 ## Requirements
-Prerequisites
-- Python 3.8 or higher
-- Internet connection (for fetching data)
+- [Python 3.8 or higher](https://www.python.org/)
+- Internet connection
 
 ## 📝 Usage
 1. Clone the repository:
 
     ```sh
     git clone https://github.com/Ha1seZz/Alberta-Seniors-Housing-Directory-Parser
-    ```
-2. Go to the project folder:
-    ```sh
     cd Alberta-Seniors-Housing-Directory-Parser
     ```
+
+2. Set Up Virtual Environment (Optional)
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # For Linux/Mac
+   venv\Scripts\activate   # For Windows
+   ```
 
 3. Install required dependencies:
 
