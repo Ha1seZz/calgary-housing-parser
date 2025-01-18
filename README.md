@@ -73,4 +73,5 @@ project/
    - Results are saved in data/processed/addresses.csv.
    - Each row in the CSV contains one address.
 
-##
+## LICENSE
+This project is licensed under the MIT License - see the LICENSE file for details.
