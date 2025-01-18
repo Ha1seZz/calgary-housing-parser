@@ -42,7 +42,7 @@ class DataParser:
             return 1
 
     @staticmethod
-    def extract_addresses(html: str):
+    def extract_addresses(html: str) -> list:
         """
         Extracts all addresses from the given HTML content.
         Извлекает все адреса из заданного HTML-содержимого.
