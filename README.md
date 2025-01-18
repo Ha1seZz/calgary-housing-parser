@@ -11,6 +11,8 @@ Libraries used: beautifulsoup4, requests, typing
 - Extracts addresses from each page.
 - Saves data to a CSV file.
 
+
+
 ## 📝 Usage
 1. Clone the repository:
 
