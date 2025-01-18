@@ -59,12 +59,12 @@ project/
     ```
 
 ## Usage
-1. Run the Parser
+1. Run the Parser:
    ```sh
    python src/main.py
    ```
-2. Follow the instructions
+2. Follow the instructions:
    When prompted, enter the name of the city. Make sure that the name matches the name listed in the ASCHA housing directory.
-4. Output
+3. Output:
    - Results are saved in data/processed/addresses.csv.
    - Each row in the CSV contains one address.
