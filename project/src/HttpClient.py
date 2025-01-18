@@ -22,7 +22,7 @@ class HttpClient:
         :raises RuntimeError: If the request fails.
         """
         try:
-            response = self.session.get(url, params=params, timeout=10)
+            response = self.session.get(url, params=params, timeout=15)
             response.raise_for_status()
             return response.text
         except requests.RequestException as e:
