@@ -13,6 +13,7 @@ Libraries used: beautifulsoup4, requests, typing
 - Saves the extracted data to a CSV file.
 
 ## Project Structure
+
 ```sh
 project/
 ├── src/
@@ -23,6 +24,7 @@ project/
 │   ├── input_handler.py    # Validates and handles user input.
 │   └── main.py             # Entry point of the application.
 ├── tests/                  # Unit tests for each module.
+│   ├── Soon...
 ├── data/                   # Directory for processed output.
 │   └── processed/          # Contains generated CSV files.
 ├── requirements.txt        # Python dependencies.
@@ -30,6 +32,12 @@ project/
 ├── README.md               # Project documentation.
 └── LICENSE                 # License for the project.
 ```
+
+## Requirements
+Prerequisites
+- Python 3.8 or higher
+- Internet connection (for fetching data)
+
 ## 📝 Usage
 1. Clone the repository:
 
