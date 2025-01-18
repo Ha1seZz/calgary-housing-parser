@@ -7,9 +7,11 @@ The [Alberta Seniors Housing Directory](https://housingdirectory.ascha.com/) Par
 Libraries used: beautifulsoup4, requests, typing
 
 ## Functions
-- Automatically determines the number of pages to parse.
-- Extracts addresses from each page.
-- Saves data to a CSV file.
+- Extracts the available cities from the website.
+- Checks the names of cities entered by the user.
+- Extracts addresses of residential buildings on all pages.
+- Saves the extracted data to a CSV file.
+- Extensible code structure.
 
 ## 📝 Usage
 1. Clone the repository:
