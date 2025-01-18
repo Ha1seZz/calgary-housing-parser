@@ -9,7 +9,7 @@ def main():
     Initializes input handling and starts the scraper.
     """
     print("Starting Alberta Seniors Housing Directory Parser...")
-    city_name = InputHandler.get_city_name()  # Используем обработчик ввода
+    city_name = InputHandler.get_city_name()
     scraper = Scraper(city_name)
     scraper.run()
 
