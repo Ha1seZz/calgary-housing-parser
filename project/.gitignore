@@ -1,0 +1,23 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+
+# Logs
+*.log
+
+# Coverage and test results
+coverage/
+*.coverage
+*.cov
+*.lcov
+
+# IDE-specific
+.idea/
+.vscode/
+
+# Output files
+data/processed/
