@@ -40,6 +40,7 @@ project/
 ## Requirements
 - [Python 3.8 or higher](https://www.python.org/)
 - Internet connection
+- Installing the necessary dependencies
 
 ## Installation
 1. Clone the repository:
