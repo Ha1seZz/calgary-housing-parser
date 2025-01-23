@@ -42,7 +42,7 @@ project/
 - Internet connection
 - Installing the necessary dependencies
 
-## Installation
+## 💾Installation
 1. Clone the repository:
 
     ```sh
