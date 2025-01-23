@@ -6,13 +6,13 @@ The [Alberta Seniors Housing Directory](https://housingdirectory.ascha.com/) Par
 
 Libraries used: beautifulsoup4, requests, typing, tqdm
 
-## Functions
+## 🔧Functions
 - Extracts the available cities from the website.
 - Checks the names of cities entered by the user.
 - Extracts addresses of residential buildings on all pages.
 - Saves the extracted data to a CSV file.
 
-## Project Structure
+## 📜Project Structure
 
 ```sh
 project/
@@ -63,7 +63,7 @@ project/
     python -m pip install -U -r requirements.txt
     ```
 
-## Usage
+## 📝Usage
 1. Run the Parser:
    ```sh
    python src/main.py
@@ -76,8 +76,8 @@ project/
 
 * * *
 
-## LICENSE
+## 📃LICENSE
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ha1seZz/Alberta-Seniors-Housing-Directory-Parser/blob/main/LICENSE) file for details.
 
-## Problems
+## ⚠️Problems
 If you have any problems while running the script, you can create a new issue on GitHub or write to Telegram [**@Ha1seZz**](https://t.me/Ha1seZz) with a detailed problem.
