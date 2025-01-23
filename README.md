@@ -74,5 +74,7 @@ project/
    - Results are saved in data/processed/addresses.csv.
    - Each row in the CSV contains one address.
 
+* * *
+
 ## LICENSE
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ha1seZz/Alberta-Seniors-Housing-Directory-Parser/blob/main/LICENSE) file for details.
