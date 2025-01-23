@@ -37,7 +37,7 @@ project/
 └── LICENSE                   # License for the project.
 ```
 
-## Requirements
+## ⚙️Requirements
 - [Python 3.8 or higher](https://www.python.org/)
 - Internet connection
 - Installing the necessary dependencies
