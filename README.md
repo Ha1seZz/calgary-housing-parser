@@ -4,7 +4,7 @@ The code was written for educational purposes
 # 📄Overview
 The [Alberta Seniors Housing Directory](https://housingdirectory.ascha.com/) Parser is a Python-based tool that extracts housing addresses for seniors in Alberta based on a user-provided city name. It fetches data and saves the results into a CSV file.
 
-Libraries used: beautifulsoup4, requests, typing, tqdm
+Libraries used: beautifulsoup4, requests, typing, tqdm, pytest, pytest-mock
 
 ## 🔧️Functions
 - Extracts the available cities from the website.
