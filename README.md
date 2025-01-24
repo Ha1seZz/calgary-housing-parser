@@ -38,7 +38,6 @@ project/
 ```
 
 ## ⚙️Requirements
-- ![Python 3.8](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 - [Python 3.8 or higher](https://www.python.org/)
 - Internet connection
 - Installing the necessary dependencies
