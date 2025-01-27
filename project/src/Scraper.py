@@ -1,6 +1,6 @@
-from .HttpClient import HttpClient
-from .DataParser import DataParser
-from .CsvWriter import CsvWriter
+from HttpClient import HttpClient
+from DataParser import DataParser
+from CsvWriter import CsvWriter
 from tqdm import tqdm
 
 

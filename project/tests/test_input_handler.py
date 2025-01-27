@@ -1,4 +1,4 @@
-from src.input_handler import InputHandler
+from input_handler import InputHandler
 import pytest
 
 

@@ -1,4 +1,4 @@
-from src.DataParser import DataParser
+from DataParser import DataParser
 import pytest
 
 

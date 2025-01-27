@@ -1,4 +1,4 @@
-from src.CsvWriter import CsvWriter
+from CsvWriter import CsvWriter
 import pytest
 
 

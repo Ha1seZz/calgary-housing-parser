@@ -1,7 +1,7 @@
-from src.HttpClient import HttpClient
-from src.DataParser import DataParser
-from src.CsvWriter import CsvWriter
-from src.Scraper import Scraper
+from HttpClient import HttpClient
+from DataParser import DataParser
+from CsvWriter import CsvWriter
+from Scraper import Scraper
 import pytest
 
 
@@ -13,17 +13,17 @@ def scraper():
 @pytest.fixture
 def mock_http_client(mocker):
     """Fixture to mock the HttpClient class used in the Scraper."""
-    return mocker.patch("src.Scraper.HttpClient", autospec=True)
+    return mocker.patch("Scraper.HttpClient", autospec=True)
 
 @pytest.fixture
 def mock_data_parser(mocker):
     """Fixture to mock the DataParser class used in the Scraper."""
-    return mocker.patch("src.Scraper.DataParser", autospec=True)
+    return mocker.patch("Scraper.DataParser", autospec=True)
 
 @pytest.fixture
 def mock_csv_writer(mocker):
     """Fixture to mock the CsvWriter class used in the Scraper."""
-    return mocker.patch("src.Scraper.CsvWriter", autospec=True)
+    return mocker.patch("Scraper.CsvWriter", autospec=True)
 
 def test_scraper_initialization(scraper):
     """Test the correct initialization of the Scraper instance.

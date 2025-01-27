@@ -1,4 +1,4 @@
-from src.HttpClient import HttpClient
+from HttpClient import HttpClient
 import pytest
 
 
