@@ -1,7 +1,8 @@
-from HttpClient import HttpClient
-from DataParser import DataParser
-from CsvWriter import CsvWriter
+from .HttpClient import HttpClient
+from .DataParser import DataParser
+from .CsvWriter import CsvWriter
 from tqdm import tqdm
+
 
 class Scraper:
     BASE_URL = "https://housingdirectory.ascha.com/"
@@ -33,7 +34,7 @@ class Scraper:
         first_page_url = self.build_search_url(1, location_attrs)
         first_page_html = self.client.get(first_page_url)
         number_of_pages = DataParser.get_number_of_pages(first_page_html)
-        
+
         print("Extracting addresses...")
         all_addresses = self.address_generator(number_of_pages, location_attrs)
 
@@ -41,7 +42,7 @@ class Scraper:
         file_path = "Alberta Seniors Housing Directory Parser/data/processed/addresses.csv"
         CsvWriter.write_to_csv(file_path, all_addresses)
         print("Parsing completed. The data is saved to a folder:\n", file_path)
-    
+
     def address_generator(self, number_of_pages: int, location_attrs: dict):
         """
         Generates addresses page by page.

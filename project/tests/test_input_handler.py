@@ -3,7 +3,7 @@ import pytest
 
 
 @pytest.mark.parametrize(
-    "user_input,expected_output",
+    "user_input, expected_output",
     [
         ("calgary", "Calgary"),  # Valid input, lowercase
         ("Edmonton", "Edmonton"),  # Valid input, already capitalized

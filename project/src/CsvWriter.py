@@ -1,6 +1,7 @@
 from typing import Iterable
 import csv
 
+
 class CsvWriter:
     @staticmethod
     def write_to_csv(file_path: str, data: Iterable):

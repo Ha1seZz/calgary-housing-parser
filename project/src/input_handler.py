@@ -1,5 +1,6 @@
 import re
 
+
 class InputHandler:
     @staticmethod
     def get_city_name():

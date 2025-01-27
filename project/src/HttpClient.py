@@ -1,5 +1,6 @@
 import requests
 
+
 class HttpClient:
     def __init__(self, base_url):
         """

@@ -1,6 +1,7 @@
 from input_handler import InputHandler
 from Scraper import Scraper
 
+
 def main():
     """
     Main entry point for the program.
