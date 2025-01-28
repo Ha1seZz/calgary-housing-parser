@@ -39,7 +39,7 @@ class Scraper:
         all_addresses = self.address_generator(number_of_pages, location_attrs)
 
         print("Saving data to CSV...")
-        file_path = "Alberta-Seniors-Housing-Directory-Parser/data/processed/addresses.csv"
+        file_path = "data/processed/addresses.csv"
         CsvWriter.write_to_csv(file_path, all_addresses)
         print("Parsing completed. The data is saved to a folder:\n", file_path)
 
