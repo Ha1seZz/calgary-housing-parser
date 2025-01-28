@@ -87,7 +87,7 @@ project/
 * * *
 
 ## 📃LICENSE
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ha1seZz/Alberta-Seniors-Housing-Directory-Parser/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [**LICENSE**](https://github.com/Ha1seZz/Alberta-Seniors-Housing-Directory-Parser/blob/main/LICENSE) file for details.
 
 ## ⚠️Problems
 If you have any problems while running the script, you can create a new issue on GitHub or write to Telegram [**@Ha1seZz**](https://t.me/Ha1seZz) with a detailed problem.
