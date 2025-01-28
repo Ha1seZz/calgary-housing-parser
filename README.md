@@ -17,6 +17,7 @@ Libraries used: beautifulsoup4, requests, typing, tqdm, pytest, pytest-mock
 ```sh
 project/
 ├── src/
+│   ├── __init__.py           # Indicates that the directory `src` is a Python module.
 │   ├── HttpClient.py         # Handles HTTP requests with a session.
 │   ├── DataParser.py         # Extracts data (city options, addresses, page count) from HTML.
 │   ├── CsvWriter.py          # Handles CSV file creation and data writing.
@@ -24,6 +25,7 @@ project/
 │   ├── input_handler.py      # Validates and handles user input.
 │   └── main.py               # Entry point of the application.
 ├── tests/
+│   ├── __init__.py           # Indicates that the directory `tests` is a Python module.
 │   ├── test_HttpClient.py    # Tests for HttpClient class
 │   ├── test_DataParser.py    # Tests for DataParser class
 │   ├── test_CsvWriter.py     # Tests for CsvWriter class
