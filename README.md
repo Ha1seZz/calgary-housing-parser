@@ -66,8 +66,9 @@ project/
     ```
 
 ## 📝Usage
-1. Run the Parser:
+1. Change the current directory and run the parser:
    ```sh
+   cd Alberta-Seniors-Housing-Directory-Parser
    python src/main.py
    ```
 2. Follow the instructions:
