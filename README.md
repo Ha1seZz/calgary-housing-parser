@@ -66,14 +66,21 @@ project/
     ```
 
 ## 📝Usage
-1. Change the current directory and run the parser:
+1. Change the current directory:
    ```sh
    cd Alberta-Seniors-Housing-Directory-Parser
-   python src/main.py
    ```
-2. Follow the instructions:
+2. Activating the environment:
+   ```sh
+   venv\Scripts\activate
+   ```
+3. Run the Parser:
+   ```sh
+   python project/src/main.py
+   ```
+4. Follow the instructions:
    - When prompted, enter the name of the city. Make sure that the name matches the name listed in the ASCHA housing directory.
-3. Output:
+5. Output:
    - Results are saved in data/processed/addresses.csv.
    - Each row in the CSV contains one address.
 
